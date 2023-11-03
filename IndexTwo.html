@@ -84,7 +84,9 @@
             .display_grid {
                 display: grid;
             }
-
+            .justify_center{
+                justify-content: center;
+            }
             .Activate {
                 width: 150px !important;
             }
@@ -97,7 +99,18 @@
 </head>
 
 <body>
-    <div style="background-color: #F6FBFF;">
+    <div style="display: grid; justify-content: center;">
+        <table>
+            <tr>
+                <td> <a style="text-decoration: none; font-size: 20px;" href="./index.html">1</a></td>
+                <td> <a style="text-decoration: none; font-size: 20px; padding-left: 20px;" href="./indexTwo.html">2</a>
+                </td>
+                <td> <a style="text-decoration: none; font-size: 20px;  padding-left: 20px;"
+                        href="./indexthree.html">3</a></td>
+            </tr>
+        </table>
+    </div>
+    <div style="background-color: #F6FBFF; padding-top: 40px;">
         <div style="max-width: 648px; margin-left: auto; margin-right: auto; background-color: white;">
             <header class="px_12" style="padding-top: 22px; padding-bottom: 22px ; padding-left: 45px;">
                 <div style="background-color: #040503; width: 134px; height: 59px; ">
@@ -194,7 +207,7 @@
                 across the company—curated to what Workplace thinks you will be most interested in. Workplace is an
                 essential part of how our agents connect with one another. If you haven’t already done so, activate your
                 account now.</p>
-            <div style="display: grid; justify-content: center;">
+            <div class="display_grid justify_center">
                 <table class="px_12" style="padding: 24px 44px 28px 44px">
                     <tr style="display: grid; gap: 24px;">
                         <td class="grid_btn_one">
